@@ -1,0 +1,56 @@
+* {
+ 
+}
+/*
+@font-face {
+font-family: Acher;
+src: url("fonts/Archer-Semibold-Pro_0.otf") format("opentype");
+}*/
+
+body {
+  background-image: url('../images/background2.jpg');
+  background-repeat: no-repeat;
+  background-position: center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+background-attachment: fixed;
+background-origin: initial;
+background-clip: initial;
+		/*background-color: black;
+  font-family: Roman;*/
+font-family: 'Rokkitt', serif;
+color: white;
+  }
+
+
+
+
+
+.image {
+	position:relative;
+	 float:left; /* optional */
+	vertical-align: left;
+   
+
+   	
+}
+.image .aboutme {
+	position:absolute;
+	top:100px; /* in conjunction with left/right property, decides the text position */
+	left:50px;
+	width:300px; /* optional, though better have one */
+	
+
+}
+#footer {
+    font-size: 11pt;
+
+margin-top:0px;
+
+margin-left:460px;
+margin-right:50px;
+
+
+}
